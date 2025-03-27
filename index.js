@@ -15,7 +15,7 @@ app.use(express.json()); // Para processar JSON
 app.use('/api', usuariosRouter);
 app.use('/api', produtosRouter);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Servidor rodando na porta: ${port}`);
 });
